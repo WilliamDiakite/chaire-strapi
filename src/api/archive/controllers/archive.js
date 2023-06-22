@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * dummy controller
+ * archive controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::dummy.dummy');
+module.exports = createCoreController('api::archive.archive');

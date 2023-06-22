@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * dummy router
+ * archive router
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::dummy.dummy');
+module.exports = createCoreRouter('api::archive.archive');

@@ -19,10 +19,11 @@
     "name": {
       "pluginOptions": {
         "i18n": {
-          "localized": true
+          "localized": false
         }
       },
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "bio": {
       "pluginOptions": {
@@ -44,6 +45,61 @@
           "localized": false
         }
       }
+    },
+    "publications": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "richtext"
+    },
+    "role": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "enumeration",
+      "enum": [
+        "filter.researcher",
+        "filter.coResearcher",
+        "filter.collaborator",
+        "filter.student",
+        "filter.institutionPartener"
+      ],
+      "default": "filter.researcher",
+      "required": true
+    },
+    "position": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "affiliation": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string",
+      "required": true
+    },
+    "axis": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "enumeration",
+      "enum": [
+        "filter.axis1",
+        "filter.axis2"
+      ]
     }
   }
 }

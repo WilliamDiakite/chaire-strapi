@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * dummy service
+ * archive service
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::dummy.dummy');
+module.exports = createCoreService('api::archive.archive');
