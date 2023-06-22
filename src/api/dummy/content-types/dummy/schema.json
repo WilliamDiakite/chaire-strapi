@@ -4,7 +4,8 @@
   "info": {
     "singularName": "dummy",
     "pluralName": "dummies",
-    "displayName": "Dummy"
+    "displayName": "Dummy",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
